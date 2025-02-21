@@ -4,13 +4,12 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <div class="container">
-            <!-- <div class=""> -->
-            <form class="form" action="index.html" method="post">
+            <form class="form">
                 <label for="task">Новая задача</label>
                 <input
                     type="text"
@@ -20,9 +19,9 @@
                 />
                 <button type="submit">Добавить задачу</button>
             </form>
-            <!-- </div> -->
             <div class="list-task">
                 <h2 class="list-task__h2">Список задач</h2>
+                <ul class="task-list"></ul>
             </div>
         </div>
     </body>
